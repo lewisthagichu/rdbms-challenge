@@ -99,28 +99,6 @@ curl -X POST http://localhost:8001/query \
   -d '{"sql": "SELECT * FROM users"}'
 ```
 
----
-
-## 🎯 Documentation Goals
-
-This documentation aims to:
-
-1. **Enable Quick Start**: Get users up and running in minutes
-2. **Teach Concepts**: Explain database internals, not just usage
-3. **Show Trade-offs**: Be honest about limitations and alternatives
-4. **Provide Examples**: Every feature has working code examples
-5. **Encourage Learning**: Link to resources for deeper understanding
-
----
-
-## 📬 Questions?
-
-If you can't find what you're looking for:
-
-1. **Check the relevant doc** - Use the index above
-2. **Search this folder** - Use your text editor's search
-3. **Check the code** - It's heavily commented
-4. **Open an issue** - Ask on GitHub
 
 ---
 
