@@ -1,0 +1,89 @@
+/* 
+ * Query Panel Styles
+ * ==================
+ */
+
+.query-panel {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.query-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.query-header h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.keyboard-hint {
+  font-size: 0.875rem;
+  color: #999;
+  font-style: italic;
+}
+
+/* SQL textarea */
+.query-input {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  resize: vertical;
+  transition: border-color 0.2s;
+}
+
+.query-input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+/* Action buttons */
+.query-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Sample queries */
+.sample-queries {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 1.5rem;
+}
+
+.sample-queries h3 {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.75rem;
+}
+
+.sample-query-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.sample-query-btn {
+  padding: 0.5rem 1rem;
+  background: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.sample-query-btn:hover {
+  background: #667eea;
+  color: white;
+  border-color: #667eea;
+}
